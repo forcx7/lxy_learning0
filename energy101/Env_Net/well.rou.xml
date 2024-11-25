@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+    <vType id="HV" length="6" speedFactor="normc(1, 0.1, 0.2, 2)" maxSpeed="30" >
+            <param key="timeToTeleport" value="1000"/>
+    </vType>
+        <flow id="H1" color="0,0,1"  begin="0" end= "1500" number="15" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E5 E4  -E7 -E1 -E0"/>
+        </flow>
+
+
+        <flow id="H2" color="0,1,0"  begin="0" end= "1500" number="15" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E11 -E4 -E2 E3"/>
+        </flow>
+
+
+        <flow id="H3" color="1,0,0"  begin="0" end= "1500" number="15" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E8 -E1 E2 E6"/>
+        </flow>
+    
+
+        <flow id="H4" color="1,0,1"  begin="0" end= "1500" number="15" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E9 E7 E11 "/>
+        </flow>
+
+       <flow id="H5" color="0,1,1"  begin="0" end= "1500" number="15" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E3 E1 E7 E10 "/>
+        </flow>
+
+        <flow id="H6" color="0,1,1"  begin="0" end= "1500" number="30" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E6 E4 E10 "/>
+        </flow>
+
+        <flow id="H7" color="0,1,1"  begin="0" end= "1500" number="30" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E10 -E4 E6  "/>
+        </flow>
+
+        <flow id="H8" color="0,1,1"  begin="0" end= "1500" number="30" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E3 E1 E9 "/>
+        </flow>
+
+        <flow id="H9" color="0,1,1"  begin="0" end= "1500" number="30" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E9 -E1 E3 "/>
+        </flow>
+
+        <flow id="H10" color="0,1,1"  begin="0" end= "1500" number="30" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E8 E7 E11 "/>
+        </flow>
+
+        <flow id="H11" color="0,1,1"  begin="0" end= "1500" number="30" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E11 -E7 E8  "/>
+        </flow>
+
+        <flow id="H12" color="0,1,1"  begin="0" end= "1500" number="30" type="HV" departLane="best" departSpeed="random">
+            <route edges="E0 E2 E5 "/>
+        </flow>
+
+        <flow id="H13" color="0,1,1"  begin="0" end= "1500" number="30" type="HV" departLane="best" departSpeed="random">
+            <route edges="-E5 -E2 -E0 "/>
+        </flow>
+</routes>

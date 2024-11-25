@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+    <vType id="AV" length="5" maxSpeed="30" />
+        <flow id="A1" color="0,0,1"  begin="0" end= "2000" number="50" type="AV" departLane="random" departSpeed="random">
+            <route edges="-E5 E0 E1 E11"/>
+        </flow>
+
+    <vType id="HV" length="5" maxSpeed="20" />
+        <flow id="H1" color="0,1,0"  begin="0" end= "2000" number="50" type="HV" departLane="random" departSpeed="random">
+            <route edges="-E5 E0 E1 E11"/>
+        </flow>
+	
+</routes>
